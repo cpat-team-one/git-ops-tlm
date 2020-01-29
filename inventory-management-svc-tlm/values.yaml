@@ -3,7 +3,7 @@ global:
   tlsSecretName: mooc-cpat-ocp01-cluster
 
 inventory-management-svc-tlm:
-  replicaCount: 2
+  replicaCount: 3
   
   ingress:
     enabled: true
